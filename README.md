@@ -12,3 +12,6 @@
 ```
 
 ### Second, Preparing MetaMask.
+#### Create a wallet address in [MetaMask](https://metamask.io/), go to Settings and turn on Show test networks.
+
+### Third, Get the ETH of the Rinkeby network
