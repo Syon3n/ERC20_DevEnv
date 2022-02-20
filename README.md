@@ -1,5 +1,4 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
->[Hardhat Guide: How to Deploy Your Own ERC-20 Token](https://www.chainshot.com/article/deploy-your-own-token)
 
 ### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
@@ -189,3 +188,6 @@ Go to [Etherscan](https://rinkeby.etherscan.io/) and enter the address of the ou
 
 **You have now finished building your environment and can deploy your own ERC-20 token to Rinkeby using the OpenZeppelin ERC20 standard.**
 **Now it's time to put it into practice by writing Hardhat scripts to send the token, airdrop, etc.**
+
+## References
+>[Hardhat Guide: How to Deploy Your Own ERC-20 Token](https://www.chainshot.com/article/deploy-your-own-token)
