@@ -122,7 +122,7 @@ Create a contract file, but you need to match the name of the smart contract fil
 cd ./contracts
 touch [your token's name].sol
 ```
-Then, open the newly created .sol file and copy-paste the following into it
+##### Then, open the newly created .sol file and copy-paste the following into it
 ```
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^[Supported versions];
