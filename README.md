@@ -1,5 +1,14 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
 
+## Table of Contents
+[Step1](https://github.com/Syon3n/ERC20_DevEnv#step1-create-alchemy-apps)
+[step2](https://github.com/Syon3n/ERC20_DevEnv#step2-preparing-metamask)
+[step3](https://github.com/Syon3n/ERC20_DevEnv#step3-get-the-eth-of-the-rinkeby-network)
+[step4](https://github.com/Syon3n/ERC20_DevEnv#step4-create-a-hardhat-project)
+[step5](https://github.com/Syon3n/ERC20_DevEnv#step5-set-up-the-env)
+[step6](https://github.com/Syon3n/ERC20_DevEnv#step6-setup-scripts-and-contracts-to-create-erc20)
+[step7](https://github.com/Syon3n/ERC20_DevEnv#step6-setup-scripts-and-contracts-to-create-erc20)
+
 ### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
 ```
