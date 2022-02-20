@@ -40,3 +40,21 @@ npx hardhat
 ```
 Then you'll see What do you want to do?
 - Select "Create a basic sample project".
+
+Next, Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
+- Select "Y".
+
+```
+After the installation is complete, your project should contain the following
+Folders:
+- scripts
+- contracts
+
+Files:
+- node_modules
+- package.json
+- package-lock.json
+- hardhat.config.js
+- README.md
+```
+Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory. Delete only the files in the directories)
