@@ -40,7 +40,7 @@ npm install dotenv
 npm install --save-dev hardhat
 npx hardhat
 ```
-Answer some of the following questions
+#### Answer some of the following questions
 ```
 What do you want to do?
  - Select "Create a basic sample project"
