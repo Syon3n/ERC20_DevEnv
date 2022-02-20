@@ -184,7 +184,7 @@ Deploying with this account: [your wallet address]
 Account balance: ...
 Token address: ...
 ```
-Go to [EtherScan](https://rinkeby.etherscan.io/) and enter the address of the output token to see the ERC-20 contract deployed on Rinkeby
+Go to [Etherscan](https://rinkeby.etherscan.io/) and enter the address of the output token to see the ERC-20 contract deployed on Rinkeby
 
 **You have now finished building your environment and can deploy your own ERC-20 token to Rinkeby using the OpenZeppelin ERC20 standard.**
 **Now it's time to put it into practice by writing Hardhat scripts to send the token, airdrop, etc.**
