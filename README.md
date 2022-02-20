@@ -113,3 +113,24 @@ npm install @openzeppelin/contracts
 ```
 Now, it is time to name the token!
 Create a contract file, but you need to match the name of the smart contract file with the name of the token.
+
+Execute the following command
+```
+cd ./contracts
+touch [your token's name].sol
+```
+Then, open the newly created .sol file and copy-paste the following into it
+```
+//SPDX-License-Identifier: Unlicense
+pragma solidity ^[Supported versions];
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract YourTokensName is ERC20 {
+  uint constant _initial_supply = [Any initial supply];
+  constructor() ERC20("your token's name", "token's symbol") {
+    _mint(msg.sender, _initial_supply);
+  };
+};
+```
+
