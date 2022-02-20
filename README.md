@@ -137,3 +137,11 @@ contract YourTokensName is ERC20 {
 };
 ```
 
+Then save and close the [your token's name].sol file.
+Now that we have the entire contracts setup, let's create a deployment script for it.
+
+```
+cd ./scripts
+touch deploy.js
+```
+##### Run the above command, open the newly created file, and copy-paste the following into it
