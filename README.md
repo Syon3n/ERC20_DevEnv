@@ -40,7 +40,7 @@ npm install dotenv
 npm install --save-dev hardhat
 npx hardhat
 ```
-#### Answer some of the following questions
+##### Answer some of the following questions
 ```
 What do you want to do?
  - Select "Create a basic sample project"
@@ -49,7 +49,7 @@ Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm
  - Select "Y"
 ```
 
-#### After the installation is complete, your project should contain the following
+##### After the installation is complete, your project should contain the following
 
 ```
 Folders:
@@ -90,7 +90,7 @@ module.exports = {
 cd ~
 touch .env
 ```
-Open the .env file and copy-paste the following into it.
+##### Open the .env file and copy-paste the following into it.
 ```
 ALCHEMY_RINKEBY_URL=
 RINKEBY_PRIVATE_KEY=
@@ -116,7 +116,7 @@ npm install @openzeppelin/contracts
 Now, it is time to name the token!
 Create a contract file, but you need to match the name of the smart contract file with the name of the token.
 
-Execute the following command
+##### Execute the following command
 ```
 cd ./contracts
 touch [your token's name].sol
