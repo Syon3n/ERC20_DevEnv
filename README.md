@@ -91,11 +91,11 @@ RINKEBY_PRIVATE_KEY=
 ETHERSCAN_KEY=
 SOME_OTHER_VARIABLE=
 ```
- - Press "VIEW DETAILS" of the application you "CREATE APP" in Step1, press "VIEW KEY", and copy the URL in the "HTTP" field.
- - Paste that Alchemy HTTP Endpoint into the "ALCHEMY_RINKEBY_URL" variable above.
+ 1. Press "VIEW DETAILS" of the application you "CREATE APP" in Step1, press "VIEW KEY", and copy the URL in the "HTTP" field.
+ 2. Paste that Alchemy HTTP Endpoint into the "ALCHEMY_RINKEBY_URL" variable above.
 Then paste the MetaMask private key you created in Step2 into "RINKEBY_PRIVATE_KEY".
 
 ###### For "ALCHEMY_RINKEBY_URL" and "RINKEBY_PRIVATE_KEY", do not include ```"``` or ```;```, just paste the value directly after the ```=``` with no spaces.
 
-##### This will make ```require('dotenv').config();``` statement will automatically load all variables in the root ```.env``` file.
-##### Then ```hardhat.config.js``` will work and correctly read the ```.env``` variables and values!
+#### This will make ```require('dotenv').config();``` statement will automatically load all variables in the root ```.env``` file.
+#### Then ```hardhat.config.js``` will work and correctly read the ```.env``` variables and values!
