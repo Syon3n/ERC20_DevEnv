@@ -38,10 +38,10 @@ npm install detenv
 npm install --save-dev hardhat
 npx hardhat
 ```
-Then you'll see What do you want to do?
+1. Then you'll see What do you want to do?
 - Select "Create a basic sample project".
 
-Next, Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
+2. Next, Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
 - Select "Y".
 
 ```
@@ -57,4 +57,4 @@ Files:
 - hardhat.config.js
 - README.md
 ```
-Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory. Delete only the files in the directories)
+Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory, Delete only the files in the directories.)
