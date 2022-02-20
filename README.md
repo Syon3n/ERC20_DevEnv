@@ -1,4 +1,4 @@
-# ERC20_DevEnv
+# ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
 
 ### Step1: Create Alchemy Apps.
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
