@@ -39,13 +39,14 @@ npm install --save-dev hardhat
 npx hardhat
 ```
 1. Then you'll see What do you want to do?
-- Select "Create a basic sample project".
+Select "Create a basic sample project".
 
 2. Next, Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
-- Select "Y".
+Select "Y".
+
+After the installation is complete, your project should contain the following
 
 ```
-After the installation is complete, your project should contain the following
 Folders:
 - scripts
 - contracts
