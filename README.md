@@ -15,3 +15,11 @@
 #### Create a wallet address in [MetaMask](https://metamask.io/), go to Settings and turn on Show test networks.
 
 ### Third, Get the ETH of the Rinkeby network
+#### Request testnet LINK to get ETH.
+```
+- Network is "Ethereum Rinkeby"
+- "Your MetaMask wallet address" in the Testnet account address field.
+- Check "ETH" for Request type.
+
+Enter the above information and click "Send request".
+```
