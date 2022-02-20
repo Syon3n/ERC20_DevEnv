@@ -25,7 +25,7 @@
 
 Enter the above information and click "Send request".
 ```
-#### Your request will be added to the queue, and you should see the ETH being transferred to your MetaMask for testing the environment build.
+Your request will be added to the queue, and you should see the ETH being transferred to your MetaMask for testing the environment build.
 
 
 ### Step4: Create a Hardhat project
