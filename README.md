@@ -36,11 +36,11 @@ Your request will be added to the queue, and you should see the ETH being transf
 mkdir [NAME OF YOUR HARDHAT PROJECT]
 cd [NAME OF YOUR HARDHAT PROJECT]
 npm init -y
-npm install detenv
+npm install dotenv
 npm install --save-dev hardhat
 npx hardhat
-
-
+```
+```
 What do you want to do?
  - Select "Create a basic sample project"
 
@@ -64,7 +64,7 @@ Files:
 ```
 Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory, Delete only the files in the directories.)
 
-After deleting Open the hardhat.config.js file, delete its contents completely, and copy/paste the following into it.(About solidity supported version[^1])
+After deleting Open the hardhat.config.js file, delete its contents completely, and copy/paste the following into it. (About solidity supported version[^1])
 ```
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
