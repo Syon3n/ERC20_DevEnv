@@ -1,4 +1,5 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
+>[Hardhat Guide: How to Deploy Your Own ERC-20 Token](https://www.chainshot.com/article/deploy-your-own-token)
 
 ### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
