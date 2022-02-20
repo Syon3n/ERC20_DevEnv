@@ -46,9 +46,6 @@ Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm
 Select "Y"
 ```
 
-
-
-
 #### After the installation is complete, your project should contain the following
 
 ```
