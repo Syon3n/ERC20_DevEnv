@@ -1,6 +1,6 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
 
-### Step1: Create Alchemy Apps.
+### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
 ```
 1. Enter any value for "NAME" and "DESCRIPTION"
@@ -12,7 +12,7 @@
 ```
 
 
-### Step2: Preparing MetaMask.
+### Step2: Preparing MetaMask
 #### Create a wallet address in [MetaMask](https://metamask.io/), go to Settings and turn on Show test networks.
 
 
@@ -103,3 +103,7 @@ SOME_OTHER_VARIABLE=
 
 This will make ```require('dotenv').config();``` statement will automatically load all variables in the root ```.env``` file.
 Then ```hardhat.config.js``` will work and correctly read the ```.env``` variables and values!
+
+
+
+### Step6: Setup scripts and contracts to create ERC20
