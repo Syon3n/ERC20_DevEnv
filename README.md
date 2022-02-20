@@ -1,15 +1,34 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
-
-<!-- START doctoc -->
 ## Table of Contents
- * [Step1](#Step1: Create Alchemy Apps)
- * [step2](#Step2: Preparing MetaMask)
- * [step3](#Step3: Get the ETH of the Rinkeby network)
- * [step4](#Step4: Create a Hardhat project)
- * [step5](#Step5: Set up the .env)
- * [step6](#Step6: Setup scripts and contracts to create ERC20)
- * [step7](#Step7: Deploy the token)
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+  - [Step1: Create Alchemy Apps](#step1-create-alchemy-apps)
+    - [Create an account in Alchemy and click "Create App".](#create-an-account-in-alchemy-and-click-create-app)
+  - [Step2: Preparing MetaMask](#step2-preparing-metamask)
+    - [Create a wallet address in MetaMask, go to Settings and turn on Show test networks.](#create-a-wallet-address-in-metamask-go-to-settings-and-turn-on-show-test-networks)
+  - [Step3: Get the ETH of the Rinkeby network](#step3-get-the-eth-of-the-rinkeby-network)
+    - [Request testnet LINK to get ETH.](#request-testnet-link-to-get-eth)
+  - [Step4: Create a Hardhat project](#step4-create-a-hardhat-project)
+    - [Create a folder of your choice and type the following command](#create-a-folder-of-your-choice-and-type-the-following-command)
+      - [Answer some of the following questions](#answer-some-of-the-following-questions)
+      - [After the installation is complete, your project should contain the following](#after-the-installation-is-complete-your-project-should-contain-the-following)
+  - [Step5: Set up the .env](#step5-set-up-the-env)
+    - [In the root folder of your project](#in-the-root-folder-of-your-project)
+      - [Open the .env file and copy-paste the following into it.](#open-the-env-file-and-copy-paste-the-following-into-it)
+  - [Step6: Setup scripts and contracts to create ERC20](#step6-setup-scripts-and-contracts-to-create-erc20)
+    - [For step 6, the @openzeppelin/contracts package is required, so execute the following command](#for-step-6-the-openzeppelincontracts-package-is-required-so-execute-the-following-command)
+      - [Execute the following command](#execute-the-following-command)
+      - [Then, open the newly created .sol file and copy-paste the following into it](#then-open-the-newly-created-sol-file-and-copy-paste-the-following-into-it)
+      - [Run the above command, open the newly created file, and copy-paste the following into it](#run-the-above-command-open-the-newly-created-file-and-copy-paste-the-following-into-it)
+      - [Save the file and Return to the project root directory](#save-the-file-and-return-to-the-project-root-directory)
+  - [Step7: Deploy the token](#step7-deploy-the-token)
+    - [This will compile your contract and deploy it to the Rinkeby network](#this-will-compile-your-contract-and-deploy-it-to-the-rinkeby-network)
+      - [Execute the following command](#execute-the-following-command-1)
+      - [After compiling and deploying, you should see something like this in the terminal output.](#after-compiling-and-deploying-you-should-see-something-like-this-in-the-terminal-output)
+- [References](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
