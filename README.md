@@ -64,7 +64,7 @@ Files:
 ```
 Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory, Delete only the files in the directories.)
 
-After deleting Open the hardhat.config.js file, delete its contents completely, and copy/paste the following into it. **About solidity version**[^1]
+After deleting Open the hardhat.config.js file, delete its contents completely, and copy/paste the following into it. About solidity version[^1]
 ```
 require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
