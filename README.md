@@ -169,3 +169,13 @@ main()
 ```
 cd ~
 ```
+
+
+### Step7: Deploy the token
+#### This will compile your contract and deploy it to the Rinkeby network
+##### Execute the following command
+```
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+##### After compiling and deploying, you should see something like this in the terminal output.
