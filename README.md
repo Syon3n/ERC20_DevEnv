@@ -97,7 +97,7 @@ SOME_OTHER_VARIABLE=
 ```
  1. Press "VIEW DETAILS" of the application you "CREATE APP" in Step1, press "VIEW KEY", and copy the URL in the "HTTP" field.
  2. Paste that Alchemy HTTP Endpoint into the "ALCHEMY_RINKEBY_URL" variable above.
-Then paste the MetaMask private key you created in Step2 into "RINKEBY_PRIVATE_KEY".
+ 3. Then paste the MetaMask private key you created in Step2 into "RINKEBY_PRIVATE_KEY".
 
 ###### For "ALCHEMY_RINKEBY_URL" and "RINKEBY_PRIVATE_KEY", do not include ```"``` or ```;```, just paste the value directly after the ```=``` with no spaces.
 
