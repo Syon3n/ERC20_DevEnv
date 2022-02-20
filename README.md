@@ -42,10 +42,10 @@ npx hardhat
 
 
 What do you want to do?
-Select "Create a basic sample project"
+ - Select "Create a basic sample project"
 
 Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
-Select "Y"
+ - Select "Y"
 ```
 
 #### After the installation is complete, your project should contain the following
