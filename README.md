@@ -38,3 +38,5 @@ npm install detenv
 npm install --save-dev hardhat
 npx hardhat
 ```
+Then you'll see What do you want to do?
+- Select "Create a basic sample project".
