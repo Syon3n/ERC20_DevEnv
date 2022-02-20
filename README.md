@@ -91,3 +91,4 @@ RINKEBY_PRIVATE_KEY=
 ETHERSCAN_KEY=
 SOME_OTHER_VARIABLE=
 ```
+#### Press "VIEW DETAILS" of the application you "CREATE APP" in Step 1, then press "VIEW KEY" and copy the URL in the "HTTP" field.
