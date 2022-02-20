@@ -85,6 +85,7 @@ module.exports = {
 ### Step5: Set up the .env
 #### In the root folder of your project
 ```
+cd ~
 touch .env
 ```
 Open the .env file and copy-paste the following into it.
