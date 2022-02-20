@@ -32,7 +32,7 @@
 
 
 ## Step3: Get the ETH of the Rinkeby network
-#### Request testnet LINK to get ETH.
+#### [Request testnet LINK](https://faucets.chain.link/rinkeby) to get ETH.
 ```
 - Network is "Ethereum Rinkeby"
 - "Your MetaMask wallet address" in the Testnet account address field.
