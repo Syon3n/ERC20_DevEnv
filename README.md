@@ -1,13 +1,13 @@
 # ERC20 - DevEnv(Alchemy, Hardhat, and Rinkeby test network)
 
 ## Table of Contents
-- [Step1](#Step1: Create Alchemy Apps)
-- [step2](#Step2: Preparing MetaMask)
-- [step3](#Step3: Get the ETH of the Rinkeby network)
-- [step4](#Step4: Create a Hardhat project)
-- [step5](#Step5: Set up the .env)
-- [step6](#Step6: Setup scripts and contracts to create ERC20)
-- [step7](#Step7: Deploy the token)
+ * [Step1](#Step1: Create Alchemy Apps)
+ * [step2](#Step2: Preparing MetaMask)
+ * [step3](#Step3: Get the ETH of the Rinkeby network)
+ * [step4](#Step4: Create a Hardhat project)
+ * [step5](#Step5: Set up the .env)
+ * [step6](#Step6: Setup scripts and contracts to create ERC20)
+ * [step7](#Step7: Deploy the token)
 
 ### Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
