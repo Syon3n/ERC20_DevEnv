@@ -107,3 +107,5 @@ Then ```hardhat.config.js``` will work and correctly read the ```.env``` variabl
 
 
 ### Step6: Setup scripts and contracts to create ERC20
+#### For step 6, the @openzeppelin/contracts package is required, so execute the following command
+```npm install @openzeppelin/contracts```
