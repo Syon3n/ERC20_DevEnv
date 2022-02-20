@@ -14,7 +14,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Step1: Create Alchemy Apps
+## Step1: Create Alchemy Apps
 #### Create an account in [Alchemy](https://www.alchemy.com/) and click "Create App".
 ```
 1. Enter any value for "NAME" and "DESCRIPTION"
@@ -26,12 +26,12 @@
 ```
 
 
-### Step2: Preparing MetaMask
+## Step2: Preparing MetaMask
 #### Create a wallet address in [MetaMask](https://metamask.io/), go to Settings and turn on Show test networks.
 
 
 
-### Step3: Get the ETH of the Rinkeby network
+## Step3: Get the ETH of the Rinkeby network
 #### Request testnet LINK to get ETH.
 ```
 - Network is "Ethereum Rinkeby"
@@ -44,7 +44,7 @@ Your request will be added to the queue, and you should see the ETH being transf
 
 
 
-### Step4: Create a Hardhat project
+## Step4: Create a Hardhat project
 #### Create a folder of your choice and type the following command
 ```
 mkdir [NAME OF YOUR HARDHAT PROJECT]
@@ -98,7 +98,7 @@ module.exports = {
 
 
 
-### Step5: Set up the .env
+## Step5: Set up the .env
 #### In the root folder of your project
 ```
 cd ~
@@ -123,7 +123,7 @@ Then ```hardhat.config.js``` will work and correctly read the ```.env``` variabl
 
 
 
-### Step6: Setup scripts and contracts to create ERC20
+## Step6: Setup scripts and contracts to create ERC20
 #### For step 6, the @openzeppelin/contracts package is required, so execute the following command
 ```
 npm install @openzeppelin/contracts
@@ -185,7 +185,7 @@ cd ~
 ```
 
 
-### Step7: Deploy the token
+## Step7: Deploy the token
 #### This will compile your contract and deploy it to the Rinkeby network
 ##### Execute the following command
 ```
