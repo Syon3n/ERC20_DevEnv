@@ -29,7 +29,7 @@ Your request will be added to the queue, and you should see the ETH being transf
 
 
 ### Step4: Create a Hardhat project
-Create a folder of your choice and type the following command
+#### Create a folder of your choice and type the following command
 ```
 mkdir [NAME OF YOUR HARDHAT PROJECT]
 cd [NAME OF YOUR HARDHAT PROJECT]
@@ -44,7 +44,7 @@ Select "Create a basic sample project".
 2. Next, Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
 Select "Y".
 
-After the installation is complete, your project should contain the following
+#### After the installation is complete, your project should contain the following
 
 ```
 Folders:
