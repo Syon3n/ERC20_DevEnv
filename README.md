@@ -59,3 +59,19 @@ Files:
 - README.md
 ```
 Then remove sample-script.js from the /scripts directory and Greeter.sol from the /contracts directory. (Not the whole directory, Delete only the files in the directories.)
+
+After deleting Open the hardhat.config.js file, delete its contents completely, and copy/paste the following into it
+```
+require('@nomiclabs/hardhat-waffle');
+require('dotenv').config();
+
+module.exports = {
+  solidity: "[Supported versions](https://hardhat.org/reference/solidity-support.html)",
+  networks: {
+    rinkeby: {
+      url: `${process.env.ALCHEMY_RINKEBY_URL}`,
+      accounts: [`0x${process.env.RINKEBY_PRIVATE_KEY}`],
+    },
+  },
+}
+```
