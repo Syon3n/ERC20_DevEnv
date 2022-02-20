@@ -66,7 +66,7 @@ require('@nomiclabs/hardhat-waffle');
 require('dotenv').config();
 
 module.exports = {
-  solidity: "[Supported versions]"[^1],
+  solidity: "[Supported versions]",
   networks: {
     rinkeby: {
       url: `${process.env.ALCHEMY_RINKEBY_URL}`,
@@ -75,4 +75,3 @@ module.exports = {
   },
 }
 ```
-[^1]: [Hardhat Guides - Compiling your contracts](https://hardhat.org/reference/solidity-support.html)
