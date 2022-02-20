@@ -79,7 +79,7 @@ module.exports = {
   },
 };
 ```
-[^1]:(https://hardhat.org/reference/solidity-support.html)
+[^1]:https://hardhat.org/reference/solidity-support.html
 
 
 
