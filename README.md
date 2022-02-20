@@ -145,3 +145,27 @@ cd ./scripts
 touch deploy.js
 ```
 ##### Run the above command, open the newly created file, and copy-paste the following into it
+```
+const main = async() => {
+  const [deployer] = await ethers.getSigners();
+  console.log('Deploying with this account:', deployer.address);
+
+  const weiAmount = (await deployer.getBalance()).toString();
+  console.log('Account balance:', (await ethers.utils.formatEther(weiAmount)));
+
+  const Token = await ethers.getContractFactory('[your token's name]');
+  const token = await Token.deploy();
+  console.log('Token address:', token.address);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.log(error);
+    process.exit(1);
+  });
+```
+##### Save the file and Return to the project root directory
+```
+cd ~
+```
