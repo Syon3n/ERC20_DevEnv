@@ -11,4 +11,4 @@
 3. Press "CREATE APP" to create the project.
 ```
 
-#### Second, Preparing MetaMask.
+### Second, Preparing MetaMask.
