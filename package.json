@@ -1,5 +1,23 @@
 {
+  "name": "landlock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "doctoc": "^2.1.0"
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "doctoc": "^2.1.0",
+    "hardhat": "^2.8.4"
   }
 }
