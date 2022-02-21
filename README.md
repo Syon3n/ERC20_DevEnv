@@ -59,6 +59,9 @@ npx hardhat
 What do you want to do?
  - Select "Create a basic sample project"
 
+Hardhat project root:
+ - ...
+
 Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm(hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers)?
  - Select "Y"
 ```
@@ -69,9 +72,11 @@ Do you want to install this [NAME OF YOUR HARDHAT PROJECT] dependencies with npm
 Folders:
 - scripts
 - contracts
+- test
+- node_modules
 
 Files:
-- node_modules
+- .gitignore
 - package.json
 - package-lock.json
 - hardhat.config.js
@@ -101,7 +106,6 @@ module.exports = {
 ## Step5: Set up the .env
 #### In the root folder of your project
 ```
-cd ~
 touch .env
 ```
 ##### Open the .env file and copy-paste the following into it.
@@ -133,7 +137,7 @@ Create a contract file, but you need to match the name of the smart contract fil
 
 ##### Execute the following command
 ```
-cd ./contracts
+cd contracts
 touch [your token's name].sol
 ```
 ##### Then, open the newly created .sol file and copy-paste the following into it
@@ -144,18 +148,18 @@ pragma solidity ^[Supported versions];
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract YourTokensName is ERC20 {
-  uint constant _initial_supply = [Any initial supply];
+  uint constant _initial_supply = [Any_initial_supply];
   constructor() ERC20("your token's name", "token's symbol") {
     _mint(msg.sender, _initial_supply);
-  };
-};
+  }
+}
 ```
 
 Then save and close the [your token's name].sol file.
 Now that we have the entire contracts setup, let's create a deployment script for it.
 
 ```
-cd ./scripts
+cd .. && cd scripts
 touch deploy.js
 ```
 ##### Run the above command, open the newly created file, and copy-paste the following into it
@@ -181,7 +185,7 @@ main()
 ```
 ##### Save the file and Return to the project root directory
 ```
-cd ~
+cd ..
 ```
 
 
